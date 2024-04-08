@@ -1,0 +1,460 @@
+body{
+    
+    
+    margin: 0%;
+    padding: 0;
+
+    
+ }
+ h1{
+     color:transparent;
+     -webkit-text-stroke: 1px#fff;
+     background: url(./images/forest.jpeg);
+     -webkit-background-clip: text;
+     background-position: 0 0;
+     animation: back 50s linear infinite;
+     font-size: 36px;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 60px;
+    
+     display: block; 
+     
+     margin-top: 10px; 
+ 
+    
+ }
+ 
+ @keyframes back{
+     100%{
+         background-position: 2000px 0;   /*this is for the h1 animation */
+     }
+ }
+ .navbar{
+    margin: 0px;
+    padding: 10px; 
+    list-style-type: none;   
+ }
+ .navbar li{
+    float:left;
+    position:relative;
+   
+ }
+ .navbar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 4px;
+    margin: 5px 7px;
+    border: 3px solid rgb(252, 245, 245);
+    border-radius: 100px;
+    display: block;
+  
+    
+
+ }
+ .navbar a:hover{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 100px;
+    border: 3px solid rgb(68, 57, 57);
+   
+ }
+ 
+
+ 
+ 
+#p5s1{
+    background-image: url(./images/yala\ page2.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+   margin-top: 0px;
+}
+
+.sub-sec h4{
+    text-align: center;
+  
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+}
+.sub-sec p{
+    padding: 30px;
+    font-size:20px ;
+    line-height: 30px;
+
+}
+.col2 img{
+   
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    flex: 50%;
+    margin-top: 100px;
+
+}
+.sub-sec1 p{
+    padding: 15px 0px 25px; 
+    font-size: 20px; 
+    text-align: justify;
+    color: | gray;
+
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    column-gap: 15px;
+    
+}
+.col2 h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+}
+.sub-sec3 h4{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; 
+     
+
+   
+ 
+    
+  }
+  
+  
+  
+  .g-item img {
+    width: 400px;
+    height: 200px;
+    border-radius: 2px; 
+    transition: 400ms;
+    margin-left: 20px;
+  }
+  .caption{
+    margin-left: 20px;
+  }
+  .g-item:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+  
+ .h4{
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .leopard-col {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .header1 {
+        padding: 10px;
+        
+    }
+    h1{
+        color:transparent;
+        -webkit-text-stroke: 1px#fff;
+        background: url(./images/forest.jpeg);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 50s linear infinite;
+        font-size: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+       
+        display: block; 
+        
+        margin-top: 10px; 
+    
+       
+    }
+    .navbar li {
+        float: none;
+    }
+    .navbar li a{
+        text-align: center;
+    }
+    #button1{
+        width: 150px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+
+    }
+    #protectedimg{
+        float: none;
+        display: block;
+    }
+    .f1{
+        width: 200px;
+        height: 200px;
+    }
+    
+        th, td {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        
+
+    
+   
+
+
+     
+}
+/**/
+.bodyy{
+    margin: 0px;
+    padding: 0px;
+
+}
+.h2{
+    font-size: 39px;
+    display: block;
+    text-align: center;
+    background-color: #d1b734;
+    padding:10px;
+    color: #726e6e;
+
+}.img2{
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+}
+.h4{
+    font-size: 35px;
+    
+}
+.class1{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    margin-top:100px;
+}
+.para1{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b1{
+    background: #00ff88;
+    padding: 10px;
+    width: 100px;
+
+}
+#class2{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+#item1{
+    margin-bottom: 200px;
+}
+#nav{
+    margin-bottom: 100px;  
+}
+#f1{
+    margin-top: 900px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .h4{
+        text-align: start;
+        font-size: larger;
+        background-color: #d1b734;
+    }
+    .class1{
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top:10px;
+    }
+    .img2{
+        float: none;
+        width: 650px;
+        height: 400px;
+        margin-right: 0px;
+        margin-left: 100px;
+        
+    }
+    .navbar li {
+        float:none;
+        text-align: center;
+        padding: 20px;
+       
+    }
+}
+
+
+
+
+
+
+footer{
+    background-color:black;
+    Width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .footercontainer{ 
+
+    padding: 70px 30px 20px;
+    font-size: 9px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+
+}
+.adjust{
+    width: 18px;
+    text-align: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px; 
+    margin: 10px;
+    background-color:whitesmoke; 
+    border-radius: 50%;
+
+}
+.socialicons a i{
+    font-size: 2em;
+     color:black;
+    opacity: 0.9;
+}
+/*----Hover effect for social icons---*/
+.socialicons a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: #fff;
+    transition: 0.5s;
+
+}
+/*--Hover effect for social icons END---*/
+/*-Footer navigation---*/
+
+
+/*-Footer navigation END--*/
+.footterbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footterbottom p{
+    color:white;
+    font-family: "open Sans", sans-serif;
+    opacity: 0.4;
+    font-size: 10px ;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: 400;
+     margin: 0px 5px;
+}
+
+
+
+
+
+/**/
+.content ul{
+    display: block;
+    justify-content: Left;
+}
+.newsletter {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .letter{
+    color: white;
+    font-size: 18px;
+  }
+  
+  .newsletter h3 {
+    margin-bottom: 10px;
+  }
+  
+  #newsletterForm {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color:#ea1414;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  #saveButton{
+    width: 70px;
+    height: 35px;
+    margin-top: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        background-color: #5fea14;
+        border-radius: 20px;
+
+  }

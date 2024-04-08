@@ -1,0 +1,44 @@
+{
+    "wildlife_introduction": {
+      "title": "Wildlife Introduction",
+      "sections": [
+        {
+          "title": "Sinharaja Forest",
+          "content": "Sinharaja is a Rain Forest and a biodiversity hotspot which is located in south west lowland wet zone within Sabaragamu and Southern provinces of Sri Lanka...",
+          "images": [
+            "./images/p2 1.jpeg",
+            "./images/p2 2.jpeg",
+            "./images/p2 3.jpeg",
+            "./images/p2 4.jpeg"
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7929.901436514625!2d80.4589414424334!3d6.400351924361054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e2161cf9a38d%3A0x813bfa0e6b19f787!2sThe%20Forest%20-%20Sinharaja!5e0!3m2!1sen!2slk!4v1704390636481!5m2!1sen!2slk"
+          
+        },
+        {
+          "title": "Horton Plains",
+          "content": "Horton Plains in Sri Lanka, is the coldest and windiest location in the country. It consists of ecosystems such as Montane evergreen forests, grasslands, marshy lands and aquatic ecosystem...",
+          "images": [
+            "./images/h 1.jpeg",
+            "./images/hor 2.jpeg",
+            "./images/hor3.jpeg",
+            "./images/hor4.jpeg"
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.7997583752854!3d6.809445993188077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1704391698949!5m2!1sen!2slk"
+        
+        },
+        {
+          "title": "Wasgamuwa National Park",
+          "content": "The Wasgamuwa National Park spanning 36,900 hectares is situated in the Matale / Polonnaruwa district, 225 km away from the City of Colombo and just 10km from the Northern boundary...",
+          "images": [
+            "./images/wasgamu 1.jpeg",
+            "./images/wasgamu 2.jpeg",
+            "./images/wasgamu 3.jpeg",
+            "./images/wasgamu4.jpeg"
+          ],
+          "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.34446137998!2d80.91819877529397!3d7.753241892265674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb52570f648bc9%3A0xa4d95d7cf2f31436!2sWasgamuwa%20National%20Park!5e0!3m2!1sen!2slk!4v1704392166678!5m2!1sen!2slk"
+          
+        }
+      ]
+    }
+  }
+  

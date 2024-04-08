@@ -1,0 +1,59 @@
+{
+  "department_of_wildlife_conservation": {
+    "title": "Department of Wildlife Conservation",
+    "sections": [
+      {
+        "title": "INTRODUCTION",
+        "content": "The Department of Wildlife Conservation has been entrusted with the responsibility of preserving ecosystem endowed with various plants and animal species which has inherited the country with enormous biodiversity. The main function of the Department of Wildlife Conservation established in 1949 is the conservation of wildlife resources in Sri Lanka. Accordingly, the sources of water feeding all the main rivers in Sri Lanka and catchment areas of 40 major reservoirs providing water for agriculture and hydro-power generation are protected within this wildlife reservation network which exceeds 13% of the total land area of the island. The responsibility of managing this wildlife reservation network is solely falling upon the Department of Wildlife Conservation. This network consists of reservations declared under various reservation levels.",
+        "id": "p3h2"
+      },
+      {
+        "title": "PROTECTED AREAS IN SRILANKA",
+        "functions": [
+          "Ensuring sustainability of wildlife resources found in all geographical, climatic biological zones through the establishment of wildlife reservation network in Sri Lanka.",
+          "Declaration and proper management of wildlife reservations with the specific objectives of preserving catchment areas of major reservoirs providing water for agriculture and hydro-power generation, preservation of religious and cultural heritage, endemic and rare wildlife species and exclusive ecological systems.",
+          "Ensuring long-term existence of threatened endemic wildlife species by implementing special projects and adopting suitable measures for conservation of the same.",
+          "Ensuring the safety of wild animal species living outside the wildlife reservation areas.",
+          "Effective implementation of the contemporary national wildlife policy and the law.",
+          "Taking action upon the authority given for implementing Convention on International Trade on Endangered Species (CITES), Convention on Internationally Important Wetlands (Ramsar) and Convention on Migratory Species (CMS-Bonn).",
+          "Planning and Implementation of education programmers on wildlife to obtain maximum contribution of the general public, public officers and other group interested in wildlife conservation."
+        ],
+        "strategies": [
+          "Strengthening the Security",
+          "Strengthening legal infrastructure",
+          "Strengthening the border fence construction for elephant particularly in the vulnerable areas and construction of elephant care center",
+          "Livelihood development"
+        ],
+        "image": "./images/protected areas.jpeg",
+        "gallery_images": [
+          {
+            "image": "./images/buffer zone.jpg",
+            "caption": "Buffer Zone"
+          },
+          {
+            "image": "./images/marine.jpg",
+            "caption": "Marine Reserves"
+          },
+          {
+            "image": "./images/jungle corridor (1).jpg",
+            "caption": "Jungle Corridor"
+          },
+          {
+            "image": "./images/reverse (2).jpg",
+            "caption": "Nature Reserves"
+          },
+          {
+            "image": "./images/yala history (1).webp",
+            "caption": "National Park"
+          },
+          {
+            "image": "./images/snr.jpg",
+            "caption": "Strict Natural Reserve"
+          }
+        ],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505429.56477222306!2d79.3771180890625!3d8.236053300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afd05dc95999a93%3A0x29e5e6be849f7d10!2sDepartment%20of%20Wildlife%20Conservation%20(Alivadiya%20Range%20Office)!5e0!3m2!1sen!2slk!4v1704527702135!5m2!1sen!2slk",
+        "id": "protected_areas"
+      }
+    ]
+  }
+}

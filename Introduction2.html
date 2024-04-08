@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sri Lankan Wildlife</title>
+        <link rel="stylesheet" href="Srilankan Wild Life.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="./images/favicon.ico">
+    </head>
+    <section class="intheader1">
+        <nav >
+            
+            <ul class="navbar">
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="Introduction2.html">Introduction</a></li>
+                <li><a href=" Wildlife Conservation2.html">Department of willife conservation</a></li>
+                <li><a href="leopard2.html">Srilankan Leopard</a></li>
+                <li><a href="Animals2.html">Animals in Srilanka</a></li>
+                <li><a href="yala2.html">Yala national park</a></li>
+                <li><a href="wilpattu2.html">Wilpattu national park</a></li>
+                <li><a href="index.html">Logout</a></li>
+                <button id="saveButton">Save</button>
+                
+
+            </ul>
+            </nav>
+    
+            
+         
+
+        </nav>
+        <div contenteditable="true" id="contenteditable">
+        <div class="divintro">
+
+
+
+
+
+
+
+            <script>
+                document.getElementById('saveButton').addEventListener('click', function() {
+          var content = document.getElementById('contenteditable').innerHTML;
+          saveContentToLocalStorage(content);
+          alert('Content saved successfully!');
+        });
+        
+        function saveContentToLocalStorage(content) {
+          localStorage.setItem('contenteditable', content);
+        }
+        
+        // Load content from Local Storage when the page loads
+        window.onload = function() {
+          let storedContent = localStorage.getItem('contenteditable');
+          if (storedContent) {
+            document.getElementById('contenteditable').innerHTML = storedContent;
+          }
+        };
+          </script>
+          <script>
+            document.getElementById('saveButton').addEventListener('click', function() {
+        var content = document.getElementById('editableContent').innerHTML;
+        saveContentToLocalStorage(content);
+        alert('Content saved successfully!');
+        });
+        
+        function saveContentToLocalStorage(content) {
+        localStorage.setItem('editableContent', content);
+        }
+        
+        // Load content from Local Storage when the page loads
+        window.onload = function() {
+        let storedContent = localStorage.getItem('editableContent');
+        if (storedContent) {
+        document.getElementById('editableContent').innerHTML = storedContent;
+        }
+        };
+        </script>
+            </div>
+
+           </div>
+    </section>
+           <div contenteditable="true" id="contenteditable">
+                    <table class="table1">
+                        <tr>
+                            <th><b>National park</b></th>
+                            <th width="100px"><b>Animal name</b></th>
+                           <th width="600px"><b>Interesting fact</b></th>
+                           <th width="300px"><b>1mage</b></th>
+                        </tr>
+                        <tr>
+                            <td>Horton Plains</td>
+                            <td>Sambar Deer</td>
+                            <td>Large male Sambar deers weight up to 270–280 kg.</td>
+                            <td><img src="./images/Sambar1.jpg" alt="sambar deer" width="250" height="250"></td>
+                        </tr>
+                        <tr>
+                            <td>Sinharaja Forest</td>
+                            <td>Leopard</td>
+                            <td>The Sri Lankan leopard hunts by silently stalking its prey, until it is within striking distance, when it unleashes a burst of speed to quickly pursue and pounce on its victim. </td>
+                            <td> <img src="./images/04.jpeg" alt="leopard" width="250" height="250">  </td>
+                        </tr>
+                        <tr>
+                            <td>Wasgamuwa National Park</td>
+                            <td>Elephant</td>
+                            <td>The elephants at Wasgamuwa are quite different to the ones at the other National Parks. They are completely wild and have limited exposure to safari jeeps</td>
+                            <td> <img src="./images/03.jpg" alt="elephant" width="250" height="250" > </td>
+                        </tr>
+                        <tr>
+                            <td>Minneriya National park</td>
+                            <td>Birds</td>
+                            <td>There are large number of water birds such as Lesser adjutant, Painted stork and Spot-billed pelican in addition to resident and migratory bird species totaling to 160.</td>
+                            <td><img src="./images/birds.jpeg" alt="Birds" width="250" height="250"   ></td>
+                        </tr>
+                    </table>
+
+
+                    <footer>
+                        <div class="footercontainer">
+                               <div class="socialicons">
+                                       <a href=""><i class="fa fa-facebook adjust"></i></a> 
+                                       <a href=""><i class="fa fa-twitter adjust"></i></a> 
+                                       <a href=""><i class="fa fa-instagram adjust"></i></a> 
+                                       <a href=""><i class="fa fa-youtube adjust"></i></a>
+                                       <a href=""><i class="fa fa-google-plus adjust"></i></a>
+                                </div>
+                           
+                           <div class="footterbottom">
+                            <p>&copy; 2023 Wild Life | All Rights Reserved | Designed by <span class="designer">K. Kariyawasam| APIIT </span></p>
+                            </div>
+                             <!-- Newsletter Subscription Form -->
+        <div class="newsletter">
+            <h8 class="letter">Subscribe to Our Newsletter</h8>
+            <form id="newsletterForm">
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+              <button type="button" id="dashboardButton">view dashboard</button>
+            </form>
+          </div>
+
+
+                            <!--UNESCO World Heritage Centre (2020). Sinharaja Forest Reserve. [online] Unesco.org. Available at: https://whc.unesco.org/en/list/405/.
+                            www.rainforest-ecolodge.com. (2019). Fauna in Sri Lanka | Tropical Animal Life at Sinharaja Rainforest. [online] Available at: https://www.rainforest-ecolodge.com/sinharaja-rainforest/fauna.html.
+                        www.stockholm.embassy.gov.lk. (2019). Horton Plains : Embassy of Sri Lanka in Stockholm, Sweden. [online] Available at: https://www.stockholm.embassy.gov.lk/en/sri_lanka/horton-plains/.
+                    Expeditions, C. (2024). Wildlife holidays in Sri Lanka I best wildlife holidays Sri Lanka. [online] Ceylon Expeditions. Available at: https://www.ceylonexpeditions.com/wildlife-holidays-in-sri-lanka-8-nights [Accessed 12 Jan. 2024].
+                www.srilankaecotourism.lk. (2018). wasgamuwa national park sri lanka | wildlife parks in sri lanka | National park in Sri Lanka. [online] Available at: https://www.srilankaecotourism.lk/eco_destination.php?eco=wasgamuwa-national-park.
+                  New Zealand Safaris. (2019). What is a sambar deer? · New Zealand Safaris. [online] Available at: https://newzealandsafaris.com/what-is-a-sambar-deer/.
+                   www.ecoteam.lk. (2018). Minneriya National Park. [online] Available at: https://www.ecoteam.lk/travel-destinations-sri-lanka/nature-an-national-parks-sri-lanka/minneriya.html [Accessed 12 Jan. 2024].
+                pexels.com/search/wildlife/. (2022).-->
+                   </footer>
+           </div>
+       
+
+                <script src="main1.js"></script>
+                <script src="nwsletter.js"></script>
+                <script src="login.js"></script>
+
+    </body>
+    </html>

@@ -1,0 +1,47 @@
+{
+  "sections": [
+    {
+      "title": "Venues That Leopard Can Be Found In Sri Lanka",
+      "subsections": [
+        {
+          "name": "Kumana National Park",
+          "image_src": "./images/page 4 2.jpeg",
+          "description": "Kumana, situated in Sri Lanka's eastern corner and connected to Yala, was known primarily as a bird sanctuary. However, in recent years, there has been a surge in leopard sightings. Legends portray Kumana's leopards as 'man-eaters,' particularly those in Lenama, known for their supposed size and danger. Despite being the same leopards found in Yala, Kumana has witnessed more man-eating incidents. In 2019, a construction worker was killed and another severely injured when retrieving the victim's body. Another attack in 2020 resulted in a farmer's death and subsequent assaults on patrolmen. Controversy arose when authorities released the captured culprit deeper into the park. Nevertheless, leopard sightings persist due to their increasing habituation, offering privacy in this secluded area, making Kumana one of Sri Lanka's hidden gems."
+        },
+        {
+          "name": "Veheragala (Yala Block 5)",
+          "image_src": "./images/minneriya leopard.jpeg",
+          "description": "The Veheragala National Park, also known as Yala Block 5 became popular in the last 6 years as an alternative to Yala Block 5. The small land extends borders to the giant Veheragala reservoir and is less visited than its more famous counterpart. This park is also known for its fair number of leopards, often seen on the main road which runs through the park. The high density of prey animals such as Spotted Deer and Grey Langur may have resulted in the number of leopards seen, and gradual habituation has helped greatly in giving quality sightings. This is a great park to combine with when visiting Block 1 to get away from crowds and to get a change in landscape."
+        },
+        {
+          "name": "Horton Plains National Park",
+          "image_src": "./images/page4.jpeg",
+          "description": "The misty highlands of Sri Lanka, once abundant with forests and wildlife until cleared by the British for agriculture, now host Horton Plains National Park, a unique wilderness refuge. Situated over 2500 meters above sea level, this ecologically significant area, declared a UNESCO World Heritage Site, shelters rare endemic plants and animals. Known for its stunning landscapes and rare bird species, the park has also become an unexpected habitat for leopards. These apex predators, with physical differences from their lowland counterparts, thrive in the dense cloud forests and prey primarily on the largest deer species in Sri Lanka, the Sambhur. A 2020 study identified 23 adult leopards in this area, showcasing their resilience in this challenging habitat. Despite their elusive nature, patient and observant visitors might catch a glimpse of these majestic highland leopards, adding to the park's allure as a remarkable wildlife destination."
+        }
+      ]
+    },
+    {
+      "title": "Threats That Leopards Have To Face",
+      "description": "Over the 20th century, Sri Lanka's leopard population may have declined by up to 75 percent, with highest losses under British rule. Although Sri Lanka has been more effectively engaged in wildlife conservation than most other Asian nations in recent decades, there are at least six reasons for a possible further decline of Sri Lanka's leopard population.",
+      "threats": [
+        "Currently, the survival of the Sri Lanka leopard is mainly threatened due to poaching for illegal trade via India, as the cat's beautiful striking pelt makes it an attractive target for poachers to sell it on the black market, where it can fetch thousands of US Dollars.",
+        "In traditional Chinese medicine leopard bones became a surrogate for even rarer and more expensive tiger bones.",
+        "The destruction of the native habitat has not yet come to an end outside national parks.",
+        "The use of pesticides effects leopards at the upper end of the food chain.",
+        "The human-leopard conflict in Sri Lanka is not as serious as in neighbouring India, but two fatal incidents of leopard attacks on humans occured in recent years in Sri Lanka after many decades without such casualties. Every man-eater must be killed to avoid future attacks. Dogs of estates were killed more frequently, which sometimes results in illegal hunting of leopards near plantation areas.",
+        "Legal forms of wildlife tourism do not threaten leopards directly, but may be affecting the animal's breeding behaviour and success rate. On the other hand, the popularity of leopard safaris in Sri Lanka is an additional motivation for administrations and locals to be engaged in protecting the habitats of Sri Lanka Leopards."
+      ]
+    },
+    {
+      "title": "Impacts & Reducing Methods",
+      "impacts": {
+        "description": "Recent reversals regarding the legal safeguards put in place to conserve forest land, as well as haphasard, non-consultative land use policies especially concerning agriculture has accelerated deforestation, wildlife habitat loss and population pressure on wilderness lands.\nThe leopard is an important animal in the wild, a keystone species that plays an important regulatory role in the eco-systems in which they naturally occur.\nIn Sri Lanka, it is an apex predator (at the apex of all food webs on land), plays an irreplaceable role, and its extirpation would create a void that cannot be filled by any other animal.\nThe leopard can be characterised by three qualities; intelligence, adaptability and resilience. Its intelligence and agility makes the leopard a behaviourally interesting animal, and its beauty makes it one of the most sought after wild animals in the world.\nThe leopard's tourism potential is not fully utilised and generally mismanaged by both the Government and private sectors. It is a special animal that needs focused conservation attention as well as knowledgeable field guides, trackers and naturalists.",
+        "additional_info": []
+      },
+      "reducing_methods": {
+        "description": "Hope for the future of Sri Lankan leopards lies in the protected area network and its efficient management; the enforcement of the Fauna and Flora Protection Ordinance throughout the country and related prosecutions; and the education of the younger generation as well as current policy makers as to the importance of conserving the leopard which is an ecological and economic asset, that we are fortunate to share this island with."
+      },
+      "explore_more_link": "https://groundviews.org/2022/07/30/saving-the-sri-lankan-leopard-from-extinction/"
+    }
+  ]
+}

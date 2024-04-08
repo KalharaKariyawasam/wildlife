@@ -1,0 +1,890 @@
+body{
+    
+    
+   margin: 0%;
+   padding: 0;
+}
+
+.header1{                       /*this is for the animation header for all pages*/
+    background-image:url(./images/backgroundindex\ copy.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    background-attachment: fixed;
+   
+   
+    
+    background-color: whitesmoke;
+  
+  
+   
+}
+h1{                              /*this is for the animation header for all pages*/
+    color:transparent;
+    -webkit-text-stroke: 1px#fff;
+    background: url(./images/forest.jpeg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 50s linear infinite;
+  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+   
+    display: block; 
+    
+    margin-top: 10px; 
+
+   
+}
+.wild{              /*home page first paragraph*/
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 200px;
+    background-color:#000;
+}
+
+.center-container {               /* this is  for the home page first button */
+    text-align: center;
+}
+
+.centered-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgb(16, 18, 21);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: beige;
+    border-color:black;
+    border-radius: 5px;
+    margin-top: 200px;
+    
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;   /*this is for the h1 animation */
+    }
+}
+
+.navbar{             /*navigation bar*/
+    margin: 0px;
+    padding: 10px; 
+    list-style-type: none;   
+   
+    
+   
+ }
+ .navbar li{
+    float:left;
+    position:relative;
+ }
+ .navbar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 4px;
+    margin: 5px 7px;
+    border: 3px solid rgb(252, 245, 245);
+    border-radius: 100px;
+    display: inline-block;
+    
+
+ }
+ .navbar a:hover{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 100px;
+    border: 3px solid rgb(68, 57, 57);
+   
+ }
+
+
+
+
+
+.homeb1{                                 /*home page section 123 button*/
+    padding: 10px;
+    background-color:black;
+    border-radius: 0%;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+
+/*Mobile responsive*/
+
+
+@media only screen and (max-width: 768px) {
+    .leopard-col {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .header1 {
+        padding: 10px;
+        
+    }
+    h1{
+        color:transparent;
+        -webkit-text-stroke: 1px#fff;
+        background: url(./images/forest.jpeg);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 50s linear infinite;
+        font-size: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+       
+        display: block; 
+        
+        margin-top: 10px; 
+    
+       
+    }
+    .navbar li {
+        float: none;
+        padding: 20px;
+        text-align: center;
+    }
+    .navbar li a{
+        text-align: center;
+        border: 3px solid whitesmoke;
+        border-radius: 500px;
+        padding: 4px;
+        margin: 5px;
+        width: 100%;
+        
+    }
+    #button1{
+        width: 150px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+
+    }
+    #protectedimg{
+        float: none;
+        display: block;
+    }
+    .f1{
+        width: 200px;
+        height: 200px;
+    }
+    
+        th, td {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .sub-sec{
+            margin: 0%;
+        }
+        #animal1{
+            width: 100px;
+            margin: 10px;
+        }
+        .wild{
+            font-size: 30px;
+            
+        }
+        
+
+        
+
+    
+   
+
+
+     
+}
+
+
+
+
+ /*introduction page*/  
+
+
+.intheader1{
+   background-image: url(./images/pexels-frans-van-heerden-624063.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+  background-attachment: fixed;
+ 
+
+}
+#intp1{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.7cm;
+    font-size: 18px;
+    font-style: italic;
+    background-color: black;
+    margin-top: 10px;
+    height: auto;
+    padding: 20px;
+}
+.sinharaja{                               /* starting  page 2 sections*/
+    color: green;
+    text-align: centerxs;
+    text-transform: uppercase;
+  
+}
+#inth2{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+
+}
+#pints1{
+    background-color: rgb(255, 235, 183);
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1cm;
+    padding: 20px;
+    
+    
+}
+#sinimg{
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+    margin-inline: 8px;
+   margin-top: 8px;
+   transition: 400ms;
+}
+#sinimg:hover{
+    filter:grayscale(1);
+    transform: scale(1.03);
+}
+
+.map2{     /* maps  styling*/
+    width: 300px;
+    height: 400px;
+    border: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+   
+   
+    
+}
+
+/* Starting the table of special animals*/
+.table1{
+    border: 10px solid;
+   
+    background-color: rgb(255, 235, 183);
+    width: 98%;
+    
+}
+th, td {
+    border: 1px solid #000; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+
+
+/*The department of wildlife conservation*/
+
+
+
+#p3s1{
+    background-image: url(./images/p3bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    background-attachment: fixed;
+   
+   
+    
+    background-color: whitesmoke;
+}
+#p3p1{
+    color: black;
+    background-color: rgba(139, 246, 109, 0.684);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.7cm;
+    font-size: 18px;
+    font-style: italic;
+    
+    margin-top: 50px;
+    height: auto;
+    padding: 20px;
+}
+#p3h2{
+    color:black;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(200, 255, 0);
+    display: inline-block;
+    align-items: flex-start;
+    
+
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+   
+ 
+    
+  }
+  
+  
+  
+  .g-item img {
+    width: 400px;
+    height: 200px;
+    border-radius: 2px; 
+    transition: 400ms;
+  }
+  .g-item:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #0010ea;
+  }
+  
+ .p3h2h2{
+    color:black;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(200, 255, 0);
+    display: inline-block;
+    align-items: flex-start;
+
+ }
+
+ #protectedimg{
+    width: 650px;
+    height: 900px;
+    float: left;
+ }
+
+
+ 
+ #srilanaknp{
+    
+
+    color: black;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.7cm;
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    
+    margin-left: 800px;
+    top: 300px;
+  
+    
+
+    padding: 20px;
+ }
+
+ #p3h3{
+   
+    align-items: center;
+    display: block;
+    background-color:rgb(200, 255, 0);
+ }
+ #li1{
+    margin-left: 10px;
+    line-height: 30px;
+    margin-right: 10px;
+ }
+
+
+/* Srilankan Leopards*/
+
+#p4s1{
+    background-image: url(./images/slleopards.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 75vh;
+    width: 100%;
+   margin-top: 0px;
+
+}
+#p4p1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0.9cm;
+    font-size: 20pxpx;
+    font-style: italic;
+    background-color: lightcyan;
+    margin-top: 200px;
+    height: auto;
+    padding: 20px;
+}
+#p4div1{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(166, 206, 97);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row{
+   
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    column-gap: 15px;
+}
+.sub-sec{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;  
+    padding-bottom: 60px;
+}
+.leopard-col{
+    padding: 10px;
+    flex: 50%;
+   
+}
+.leopard-col img{
+    float: right;
+    padding: 10px;
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+   
+}
+.sub-sec h4{
+    padding-top: 0%; 
+    text-transform: uppercase;
+    text-align: left; 
+    font-size: 35px;
+
+}
+.sub-sec p{
+    padding: 15px 0px 25px; 
+    font-size: 20px; 
+    text-align: justify;
+    color: | gray;
+
+}
+
+
+
+
+
+.sub-sec1 p{
+    padding: 10px 0px 25px;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+    width: 90%;
+}
+.sub-sec1 h5{
+    padding-top: 0%; 
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 35px;
+    background-color:rgb(166, 206, 97) ;
+    
+
+}
+.sub-sec1 li{
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    width: 90%;
+}
+.leopard-col1{
+    width: 400px;
+    height: 300px;
+    float: left;
+    
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+   
+}
+.reduce{
+    flex: 50%;
+}
+.h51{
+    font-size: 30px;
+    background-color: rgb(166, 206, 97);
+    text-align: center;
+
+}
+.h52{
+    font-size: 20px;
+  
+    text-align: left;
+
+}
+.lepb1{
+    padding: 10px;
+    width: 200px;
+    background-color: burlywood;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.sub-sec2 h5{
+
+    padding-top: 0%; 
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 35px;
+    background-color:rgb(166, 206, 97) ;
+   
+}
+.sub-sec2 h6{
+    padding-top: 0%; 
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 25px;
+    
+   
+}
+.reduce img{
+    width: 90%;
+    padding: 10px;
+    flex: 50%;
+
+}
+.sub-sec2 button{
+    color:rgb(231, 197, 135);
+    background-color: black;
+     
+     width: 20%;
+     height: auto;
+     border-radius: 5px;
+     font-size: larger;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 10%;
+   
+}
+
+
+
+
+
+
+
+/*Animals page*/
+#p5s1{
+    background-image: url(./images/animals.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+   margin-top: 0px;
+}
+
+.leopard-col button{
+    
+    display: inline-block;
+    padding: 20px 50px;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00ff88;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: black;
+  }
+  .leopard-col h2{
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgba(0, 187, 255, 0.555);
+  }
+  
+ 
+  .yala-N img{
+    width: 90%;
+    padding: 10px;
+    flex: 50%;
+
+  }
+  .yala-N{
+  margin-bottom: 150px;
+    padding: 10px;
+
+  }
+  .yala-N P{
+    padding: 15px 0px 25px; 
+    font-size: 20px; 
+    text-align: justify;
+    color: | gray;
+    text-transform:capitalize;
+
+  }
+  .yala-N button{
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #d1b734;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: black;
+    font-size: 18px;
+  }
+.animalimg{
+    float: left;
+    margin-bottom: 100px;
+    width: 600px;
+    
+}
+
+
+
+
+  /*footer*/
+  footer{
+    background-color:black;
+    Width: 100%;
+  }
+.footercontainer{ 
+    
+    padding: 70px 30px 20px;
+    font-size: 9px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+
+}
+.adjust{
+    width: 18px;
+    text-align: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px; 
+    margin: 10px;
+    background-color:whitesmoke; 
+    border-radius: 50%;
+
+}
+.socialicons a i{
+    font-size: 2em;
+     color:black;
+    opacity: 0.9;
+}
+/*----Hover effect for social icons---*/
+.socialicons a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: #fff;
+    transition: 0.5s;
+
+}
+/*--Hover effect for social icons END---*/
+/*-Footer navigation---*/
+
+
+/*-Footer navigation END--*/
+.footterbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footterbottom p{
+    color:white;
+    font-family: "open Sans", sans-serif;
+    opacity: 0.4;
+    font-size: 10px ;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: 400;
+     margin: 0px 5px;
+}
+
+
+
+
+.content ul{
+    display: block;
+    justify-content: Left;
+}
+
+
+
+
+
+
+/*animal page*/
+.bodyy{
+    margin: 0px;
+    padding: 0px;
+
+}
+.h2{
+    font-size: 39px;
+    display: block;
+    text-align: center;
+    background-color: #d1b734;
+    padding:10px;
+    color: #726e6e;
+
+}.img2{
+    width: 500px;
+    height: 450px;
+    float: right;
+    margin-left: 30px;
+}
+.h4{
+    font-size: 35px;
+    
+}
+.class1{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+.para1{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b1{
+    background: #00ff88;
+    padding: 10px;
+    width: 100px;
+
+}
+.footer1{
+    margin-top: 300px;
+}
+@media only screen and (max-width: 1000px){
+    .h4{
+        text-align: start;
+        font-size: larger;
+        background-color: #d1b734;
+    }
+    .class1{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        margin-top:10px;
+    }
+    .img2{
+        float: none;
+        width: 350px;
+        height: 300px;
+        margin-right: 0px;
+        margin-left: 1px;
+    }
+}
+
+
+
+
+/**/
+
+
+
+
+
+
+  .newsletter {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .letter{
+    color: white;
+    font-size: 18px;
+  }
+  
+  .newsletter h3 {
+    margin-bottom: 10px;
+  }
+  
+  #newsletterForm {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ea1414;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+  #saveButton{
+    width: 70px;
+    height: 35px;
+    margin-top: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        background-color: #5fea14;
+        border-radius: 20px;
+
+  }
